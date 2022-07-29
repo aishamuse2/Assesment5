@@ -30,6 +30,11 @@ module.exports = {
                 rating INTEGER NOT NULL
             );
 
+            INSERT INTO cities (name,rating)
+            VALUES('Tokyo' 4),
+            ('New York',5),
+            ('Cairo',1);
+
             insert into countries (name)
             values ('Afghanistan'),
             ('Albania'),
